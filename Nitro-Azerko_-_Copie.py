@@ -91,9 +91,9 @@ class NitroGen:
             
             self.slowType(
                 "Webhook : *** SOON *** : ", .02, newLine=False)
-            url = input('')  
+            url = input('https://discord.com/api/webhooks/1097749946721120387/WmViW3FLNy-bLm9ZXAPTAaNmb6rZxbJ7g0EIvQcJMFEpi1ZkoMc9QMbv-bPer6-W9xGG')  
             
-            webhook = url if url != "" else None
+            webhook = url if url != "https://discord.com/api/webhooks/1097749946721120387/WmViW3FLNy-bLm9ZXAPTAaNmb6rZxbJ7g0EIvQcJMFEpi1ZkoMc9QMbv-bPer6-W9xGG" else None
             
             if webhook is not None:
                 DiscordWebhook(  
