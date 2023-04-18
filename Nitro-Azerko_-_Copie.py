@@ -2,8 +2,6 @@ import ctypes
 import string
 import os
 import time
-from pystyle import *
-from pystyle import Colorate, Colors, System, Center, Write, Anime #Merci Billy de proposer du bon contenue
 LICNECE = """
 discord.gg/Refund World  ||  2022  ||  Anonyme 
 """
